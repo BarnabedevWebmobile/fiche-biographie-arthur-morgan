@@ -148,8 +148,8 @@ h2{
     justify-content: center;
 
 }
-@media (max-width: 1024px) {
-    #page{width: 8%;}
+@media (max-width: 1025px) {
+    #page{width: 100%;}
     .perlinpinpin{flex-direction: column;}
     .bottom{flex-direction: column-reverse;}
 }
