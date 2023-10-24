@@ -3,12 +3,23 @@ body{
     background-size: cover;
     min-height: calc(100vh - 60px);
     font-family: 'Smokum', serif;
+    -webkit-text-stroke: #000;
 }
 #page{
     margin: 3px;
 }
+.conteneur{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
 .texte{
     font-family: 'Arial', sans-serif;
+}
+.pate{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
 }
 .entete{
     background-color: #8B0000;
@@ -22,10 +33,13 @@ body{
 .perlinpinpin{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    max-width: 1440px;
+    padding: auto;
 }
 .logo{
-    width: 10%;
-    height: 10%;
+    width: 7%;
+    height: 7%;
     padding: auto;
     margin-top: 2%;
 }
@@ -152,4 +166,5 @@ h2{
     #page{width: 100%;}
     .perlinpinpin{flex-direction: column;}
     .bottom{flex-direction: column-reverse;}
+    .perlinpinpin{ margin-left: 2%;}
 }
