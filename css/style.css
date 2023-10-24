@@ -1,4 +1,4 @@
-html{
+body{
     background-image: url('../images/fonddepage.jpg');
     background-size: cover;
     min-height: calc(100vh - 60px);
@@ -120,8 +120,8 @@ li{
 .dessin{
     border-radius: 10px;
     border: #000 solid;
-    width: auto;
-    height: auto;
+    width: 90%;
+    height: 90%;
 }
 footer{
     width: 100%;
@@ -147,4 +147,9 @@ h2{
     display: flex;
     justify-content: center;
 
+}
+@media (max-width: 1024px) {
+    #page{width: 8%;}
+    .perlinpinpin{flex-direction: column;}
+    .bottom{flex-direction: column-reverse;}
 }
