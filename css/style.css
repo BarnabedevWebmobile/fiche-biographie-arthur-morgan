@@ -15,12 +15,11 @@ body{
 .texte{
     font-family: 'Arial', sans-serif;
 }
-.pate{
+.header__pate{
     display: flex;
     flex-direction: row;
-    max-width: 1440px;
 }
-.entete{
+.header__inner{
     background-color: #8B0000;
     display: flex;
     justify-content: space-around;
@@ -28,6 +27,7 @@ body{
     height: 70%;
     padding: auto;
     border-radius: 10px;
+    margin: auto;
 }
 .principale{
     display: flex;
@@ -41,6 +41,7 @@ body{
     height: 7%;
     padding: auto;
     margin-top: 2%;
+    margin-right: 2%;
 }
 .centre{
     display: flex;
@@ -166,7 +167,35 @@ h2{
 }
 @media (max-width: 1025px) {
     #page{width: 100%;}
-    .perlinpinpin{flex-direction: column;}
-    .bottom{flex-direction: column-reverse;}
-    .perlinpinpin{ margin-left: 2%;}
+    .corps{flex-direction: column;}
+    .droite{flex-direction: column-reverse;}
+    .droite{margin: auto;}
+    .corps{ margin-left: 2%;}
+}
+@media (max-width: 431px){
+    #page{width: 100%;}
+    .centre{width: 80%;}
+    .header__inner{flex-direction: column-reverse;}
+    .header__pate{flex-direction: column;
+    justify-content: center;}
+    .logo{margin: auto;
+    justify-content: right;
+    width: 30%;
+    height: 30%;
+    }
+    h1{margin-left: 20%;}
+    .principale{flex-direction: column;}
+    .corps{
+        flex-direction: column-reverse;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .resume{
+        background-color: #000;
+        color: #fff;
+    }
+    .analyse{
+        background-color: #000; 
+        color: #fff;
+    }
 }
