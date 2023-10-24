@@ -3,7 +3,6 @@ body{
     background-size: cover;
     min-height: calc(100vh - 60px);
     font-family: 'Smokum', serif;
-    -webkit-text-stroke: #000;
 }
 #page{
     margin: 3px;
@@ -30,7 +29,7 @@ body{
     padding: auto;
     border-radius: 10px;
 }
-.perlinpinpin{
+.principale{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -52,6 +51,7 @@ h1{
     color: white;
     size: 30px;
     justify-content: center;
+    text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
 }
 figure {
     display: flex;
@@ -86,8 +86,9 @@ li{
     size: 16px;
 }
 .corps{
-    margin: 3%;
-    padding: 1%;
+    margin: auto;
+    margin-bottom: 4%;
+    padding: auto;
     width: auto;
     height: auto;
     display: flex;
@@ -109,9 +110,10 @@ li{
     border: #000 solid;
     border-radius: 10px;
 }
-.bottom{
-    margin: 3%;
-    padding: 1%;
+.droite{
+    margin: auto;
+    margin-bottom: 4%;
+    padding: auto;
     width: auto;
     height: auto;
     display: flex;
