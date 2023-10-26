@@ -100,8 +100,8 @@ li{
 .resume{
     margin: 2%;
     padding: 30px;
-    max-width: 50%;
-    height: 90%;
+    max-width: 60%;
+    height: 80%;
     border: #000 solid;
     border-radius: 10px;
 }
@@ -113,7 +113,7 @@ li{
 }
 .droite{
     margin: auto;
-    margin-bottom: 4%;
+    margin-bottom: 10%;
     padding: auto;
     width: auto;
     height: auto;
@@ -124,6 +124,7 @@ li{
 }
 .analyse{
     margin: 2%;
+    margin-top: 10%;
     padding: 30px;
     border: #000 solid;
     border-radius: 10px;
@@ -165,14 +166,39 @@ h2{
     justify-content: center;
 
 }
-@media (max-width: 1025px) {
+@media (max-width: 1250px) {
     #page{width: 100%;}
     .corps{flex-direction: column;}
     .droite{flex-direction: column-reverse;}
     .droite{margin: auto;}
-    .corps{ margin-left: 2%;}
+    .droite{ margin-top: 2%;}
+    .droite{ margin-bottom: 2%;}
 }
-@media (max-width: 431px){
+@media (max-width: 1025px) {
+    #page{width: 100%;}
+    .corps{flex-direction: column;}
+    .droite{flex-direction: column-reverse;}
+    .droite{margin-top: 12%;
+    margin-top: 12%;}
+    .corps{ margin-left: 2%;}
+    .corps{margin-bottom: 5%;}
+    .corps{margin-top: 5%;
+    justify-content: space-around;}
+    .resume{margin-bottom: 9%;}
+    .dessin{margin-top: 9%;
+    padding: auto;}
+}
+@media (max-width: 750px){
+    #page{width: 100%;}
+    .centre{width: 80%;}
+    .header__inner{flex-direction: column-reverse;}
+    .header__pate{flex-direction: column;
+    justify-content: center;}
+    .logo{margin: auto;
+    justify-content: right;
+    width: 30%;
+    height: 30%;
+    }@media (max-width: 750px){
     #page{width: 100%;}
     .centre{width: 80%;}
     .header__inner{flex-direction: column-reverse;}
@@ -183,7 +209,7 @@ h2{
     width: 30%;
     height: 30%;
     }
-    h1{margin-left: 20%;}
+    h1{margin-left: 35%;}
     .principale{flex-direction: column;}
     .corps{
         flex-direction: column-reverse;
@@ -197,5 +223,70 @@ h2{
     .analyse{
         background-color: #000; 
         color: #fff;
+    }
+    .portrait{
+        margin-left: 50%;
+    }
+    figcaption{
+        margin-left: 50%;
+    }
+    .liste{ margin-left: 20%;}
+}
+    h1{margin-left: 35%;}
+    .principale{flex-direction: column;}
+    .corps{
+        flex-direction: column-reverse;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .resume{
+        background-color: #000;
+        color: #fff;
+    }
+    .analyse{
+        background-color: #000; 
+        color: #fff;
+    }
+    .portrait{
+        margin-left: 50%;
+    }
+    figcaption{
+        margin-left: 50%;
+    }
+    .liste{ margin-left: 20%;}
+    .dessin{margin-left: 4%;}
+}
+@media (max-width: 431px){
+    #page{width: 100%;}
+    .centre{width: 80%;}
+    .header__inner{flex-direction: column-reverse;}
+    .header__pate{flex-direction: column;
+    justify-content: center;
+    margin: auto;}
+    .logo{margin: auto;
+    justify-content: right;
+    width: 30%;
+    height: 30%;
+    }
+    h1{margin-left: 35%;}
+    .principale{flex-direction: column;}
+    .corps{
+        flex-direction: column-reverse;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .resume{
+        background-color: #000;
+        color: #fff;
+    }
+    .analyse{
+        background-color: #000; 
+        color: #fff;
+    }
+    .portrait{
+        margin-left: 0%;
+    }
+    figcaption{
+        margin-left: 0%;
     }
 }
